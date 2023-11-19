@@ -39,7 +39,7 @@ public final class Constant {
 
     // Enemy manager constants
     public static final float ENEMY_MANAGER_SPAWN_MAX_TIME = 3f;
-    public static final float ENEMY_MANAGER_SPAWN_MIN_TIME = 1.5f;
+    public static final float ENEMY_MANAGER_SPAWN_MIN_TIME = 1f;
 
     // Enemy constants
     public static final int ENEMY_TILE_WIDTH = 32;

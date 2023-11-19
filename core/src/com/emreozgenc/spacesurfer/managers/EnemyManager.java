@@ -28,7 +28,7 @@ public class EnemyManager {
 
         if (Math.abs(spawnTimer) > spawnTime) {
 //            spawnEnemy((int)(Math.round(Math.random()*4)));
-            spawnEnemy(2);
+            spawnEnemy((int)Math.round(Math.random()*5));
             spawnTimer = 0;
             canCreate = true;
         }
